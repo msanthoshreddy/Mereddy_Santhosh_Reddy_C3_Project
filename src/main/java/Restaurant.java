@@ -1,4 +1,3 @@
-import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -67,5 +66,9 @@ public class Restaurant {
 	public String getName() {
 		return name;
 	}
+	
+	public int calculatePriceByItem(List<String> itemlist){
+        return 0;
+    }
 
 }
